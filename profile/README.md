@@ -24,7 +24,7 @@ Antevo connects developments in the world to the things you own, manage and prot
 |:--|:--|:--|:--|
 | **I.** | **The 07:00 Brief** — the morning read: what moved, what it means, what to watch today and the risks building underneath | `https://api.antevo.ch/mcp/0700/mcp` | Public |
 | **II.** | **Executive** — the daily editorial read on markets and the world, the risk radar, a dated archive and a century of macro-economic history | `https://api.antevo.ch/mcp/executive/mcp` | Public |
-| **III.** | **Trademark** — screen a name across the registers, read who holds a mark, check the opposition window | `https://trademark.antevo.ch/mcp` | Public screening |
+| **III.** | **Trademark** — screen a name across the registers, read who holds a mark, check the opposition window | `https://trademark.antevo.ch/mcp` | Public screening; sign-in for the rest |
 | **IV.** | **Wealth** — your household: holdings, allocation, risk and real assets | `https://api.antevo.ch/mcp/wealth/mcp` | Your account |
 | **V.** | **Mandates** — your firm's client book: reviews due, meeting preparation, succession | `https://api.antevo.ch/mcp/mandates/mcp` | By arrangement |
 
@@ -72,8 +72,8 @@ gemini extensions install https://github.com/ANTEVO-CH/antevo-mcp
 ## A considered connection
 
 - **Public where it can be.** The 07:00 Brief, Executive and Trademark screening need no account and reach no personal data.
-- **Your permission where it matters.** Wealth and Mandates sign in over OAuth 2.1 with PKCE. Your assistant receives a scoped token, never your password, and your account's own permissions apply.
-- **Nothing trades, nothing moves money.** Mandates can update your own firm's records; an irreversible change returns a plan first and waits for confirmation.
+- **Your permission where it matters.** Wealth, Mandates and Trademark's watchlist and investigations sign in over OAuth 2.1 with PKCE. Your assistant receives a scoped token, never your password, and your account's own permissions apply.
+- **Nothing trades, nothing moves money.** With a sign-in, Wealth can record holdings you already own, Trademark can keep your watchlist and run an investigation, and Mandates can update your own firm's records. Every Wealth change, and every irreversible Mandates change, returns a plan first and waits for confirmation.
 - **Intelligence, not advice.**
 
 ## Repositories
