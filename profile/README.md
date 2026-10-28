@@ -16,7 +16,7 @@
 
 Antevo connects developments in the world to the things you own, manage and protect — with the record behind each connection. Bring it into the assistant you already use: Claude, ChatGPT, Cursor, VS Code, Gemini CLI, Kiro, or a terminal.
 
-<p align="center"><b><a href="https://github.com/ANTEVO-CH/plugins">Start with ANTEVO-CH/plugins →</a></b><br><sub>Four connections and 28 skills for Claude, one install each</sub></p>
+<p align="center"><b><a href="https://github.com/ANTEVO-CH/plugins">Start with ANTEVO-CH/plugins →</a></b><br><sub>Five connections and 31 skills for Claude, one install each</sub></p>
 
 ## The connections
 
@@ -24,15 +24,16 @@ Antevo connects developments in the world to the things you own, manage and prot
 |:--|:--|:--|:--|
 | **I.** | **The 07:00 Brief** — the morning read: what moved, what it means, what to watch today and the risks building underneath | `https://api.antevo.ch/mcp/0700/mcp` | Public |
 | **II.** | **Executive** — the daily editorial read on markets and the world, the risk radar, a dated archive and a century of macro-economic history | `https://api.antevo.ch/mcp/executive/mcp` | Public |
-| **III.** | **Trademark** — screen a name across the registers, read who holds a mark, check the opposition window | `https://trademark.antevo.ch/mcp` | Public screening; sign-in for the rest |
-| **IV.** | **Wealth** — your household: holdings, allocation, risk and real assets | `https://api.antevo.ch/mcp/wealth/mcp` | Your account |
-| **V.** | **Mandates** — your firm's client book: reviews due, meeting preparation, succession | `https://api.antevo.ch/mcp/mandates/mcp` | By arrangement |
+| **III.** | **Tremor Watch** — every week, how many of 753 market relationships stopped behaving, against a normal Friday since 2001, and every reading since 1997 | `https://api.antevo.ch/mcp/tremor/mcp` | Public |
+| **IV.** | **Trademark** — screen a name across the registers, read who holds a mark, check the opposition window | `https://trademark.antevo.ch/mcp` | Public screening; sign-in for the rest |
+| **V.** | **Wealth** — your household: holdings, allocation, risk and real assets | `https://api.antevo.ch/mcp/wealth/mcp` | Your account |
+| **VI.** | **Mandates** — your firm's client book: reviews due, meeting preparation, succession | `https://api.antevo.ch/mcp/mandates/mcp` | By arrangement |
 
-All five are listed in the official [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=ch.antevo) under `ch.antevo`.
+All six are listed in the official [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=ch.antevo) under `ch.antevo`.
 
 ## Begin in one line
 
-**Claude, one click** — from Claude's connector directory: [The 07:00 Brief](https://claude.ai/directory/the-0700-brief) · [Executive Brief](https://claude.ai/directory/antevo-executive-brief) · [Wealth](https://claude.ai/directory/antevo-wealth)
+**Claude, one click** — from Claude's connector directory: [The 07:00 Brief](https://claude.ai/directory/the-0700-brief) · [Executive Brief](https://claude.ai/directory/antevo-executive-brief) · [Tremor Watch](https://claude.ai/directory/antevo-tremor-watch) · [Wealth](https://claude.ai/directory/antevo-wealth)
 
 **Claude, with skills** — Claude Code, Claude Desktop and claude.ai
 
@@ -57,7 +58,7 @@ gemini extensions install https://github.com/ANTEVO-CH/antevo-mcp
 
 **Cursor and VS Code** — one click on [antevo.ch/mcp](https://antevo.ch/mcp/#connections), or from [INSTALL.md](https://github.com/ANTEVO-CH/antevo-mcp/blob/main/INSTALL.md).
 
-**Kiro** — Powers → Add Custom Power → import from GitHub: [`powers/`](https://github.com/ANTEVO-CH/antevo-mcp/tree/main/powers) has The 07:00 Brief, Executive and Trademark.
+**Kiro** — Powers → Add Custom Power → import from GitHub: [`powers/`](https://github.com/ANTEVO-CH/antevo-mcp/tree/main/powers) has The 07:00 Brief, Executive, Tremor Watch and Trademark.
 
 **Anything else** — paste an address from the table into any client that speaks MCP over Streamable HTTP. There is nothing to download and nothing to run.
 
@@ -65,13 +66,14 @@ gemini extensions install https://github.com/ANTEVO-CH/antevo-mcp
 
 > **The 07:00 Brief** — *"What do I need to know before markets open?"* <br>
 > **Executive** — *"What could go wrong from here?"* <br>
+> **Tremor Watch** — *"Are markets under strain this week?"* <br>
 > **Trademark** — *"Has anyone filed anything close to my brand name?"* <br>
 > **Wealth** — *"Where am I concentrated?"* <br>
 > **Mandates** — *"Which clients are due a review this month?"*
 
 ## A considered connection
 
-- **Public where it can be.** The 07:00 Brief, Executive and Trademark screening need no account and reach no personal data.
+- **Public where it can be.** The 07:00 Brief, Executive, Tremor Watch and Trademark screening need no account and reach no personal data.
 - **Your permission where it matters.** Wealth, Mandates and Trademark's watchlist and investigations sign in over OAuth 2.1 with PKCE. Your assistant receives a scoped token, never your password, and your account's own permissions apply.
 - **Nothing trades, nothing moves money.** With a sign-in, Wealth can record holdings you already own, Trademark can keep your watchlist and run an investigation, and Mandates can update your own firm's records. Every Wealth change, and every irreversible Mandates change, returns a plan first and waits for confirmation.
 - **Intelligence, not advice.**
@@ -81,7 +83,7 @@ gemini extensions install https://github.com/ANTEVO-CH/antevo-mcp
 | | |
 |:--|:--|
 | [**antevo-mcp**](https://github.com/ANTEVO-CH/antevo-mcp) | Connection metadata — registry manifests, Cursor plugins, Kiro powers, the Gemini CLI extension and install links. MIT. |
-| [**plugins**](https://github.com/ANTEVO-CH/plugins) | Claude plugins — each connection with its skills, 28 in all, one install. |
+| [**plugins**](https://github.com/ANTEVO-CH/plugins) | Claude plugins — each connection with its skills, 31 in all, one install. |
 | [**cli**](https://github.com/ANTEVO-CH/cli) | `@antevo/cli` — the same connections from a terminal, scriptable. |
 
 <br>
