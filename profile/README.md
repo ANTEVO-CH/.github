@@ -14,7 +14,7 @@
 
 <br>
 
-Antevo connects developments in the world to the things you own, manage and protect — with the record behind each connection. Bring it into the assistant you already use: Claude, ChatGPT, Cursor, VS Code, Gemini CLI, Kiro, or a terminal.
+**Antevo makes intelligence products for trademarks, private wealth and market risk.** It connects developments in the world to the things you own, manage and protect — with the record behind each connection. Bring it into the assistant you already use: Claude, ChatGPT, Cursor, VS Code, Gemini CLI, Kiro, or a terminal. [What is Antevo?](https://antevo.ch/about/)
 
 <p align="center"><b><a href="https://github.com/ANTEVO-CH/plugins">Start with ANTEVO-CH/plugins →</a></b><br><sub>Five connections and 31 skills for Claude, one install each</sub></p>
 
@@ -88,4 +88,4 @@ gemini extensions install https://github.com/ANTEVO-CH/antevo-mcp
 
 <br>
 
-<p align="center"><sub>Antevo · Switzerland · Security reports to <a href="mailto:contact@antevo.ch">contact@antevo.ch</a></sub></p>
+<p align="center"><sub>Antevo · serves Switzerland, Swiss-hosted · operated by VestAI LTD, Cyprus · Security reports to <a href="mailto:contact@antevo.ch">contact@antevo.ch</a></sub></p>
