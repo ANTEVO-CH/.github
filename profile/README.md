@@ -16,7 +16,7 @@
 
 **Antevo makes intelligence products for trademarks, private wealth and market risk.** It connects developments in the world to the things you own, manage and protect — with the record behind each connection. Bring it into the assistant you already use: Claude, ChatGPT, Cursor, VS Code, Gemini CLI, Kiro, or a terminal. [What is Antevo?](https://antevo.ch/about/)
 
-<p align="center"><b><a href="https://github.com/ANTEVO-CH/plugins">Start with ANTEVO-CH/plugins →</a></b><br><sub>Five connections and 31 skills for Claude, one install each</sub></p>
+<p align="center"><b><a href="https://github.com/ANTEVO-CH/plugins">Start with ANTEVO-CH/plugins →</a></b><br><sub>Five connections and 32 skills for Claude, one install each</sub></p>
 
 ## The connections
 
@@ -26,7 +26,7 @@
 | **II.** | **Executive** — the daily editorial read on markets and the world, the risk radar, a dated archive and a century of macro-economic history | `https://api.antevo.ch/mcp/executive/mcp` | Public |
 | **III.** | **Tremor Watch** — every week, how many of 753 market relationships stopped behaving, against a normal Friday since 2001, and every reading since 1997 | `https://api.antevo.ch/mcp/tremor/mcp` | Public |
 | **IV.** | **Trademark** — screen a name across the registers, read who holds a mark, check the opposition window | `https://trademark.antevo.ch/mcp` | Public screening; sign-in for the rest |
-| **V.** | **Wealth** — your household: holdings, allocation, risk and real assets | `https://api.antevo.ch/mcp/wealth/mcp` | Your account |
+| **V.** | **Wealth** — your household: holdings, allocation, risk, real assets and, on Wealth+, succession readiness | `https://api.antevo.ch/mcp/wealth/mcp` | Your account |
 | **VI.** | **Mandates** — your firm's client book: reviews due, meeting preparation, succession | `https://api.antevo.ch/mcp/mandates/mcp` | By arrangement |
 
 All six are listed in the official [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=ch.antevo) under `ch.antevo`.
@@ -83,7 +83,7 @@ gemini extensions install https://github.com/ANTEVO-CH/antevo-mcp
 | | |
 |:--|:--|
 | [**antevo-mcp**](https://github.com/ANTEVO-CH/antevo-mcp) | Connection metadata — registry manifests, Cursor plugins, Kiro powers, the Gemini CLI extension and install links. MIT. |
-| [**plugins**](https://github.com/ANTEVO-CH/plugins) | Claude plugins — each connection with its skills, 31 in all, one install. |
+| [**plugins**](https://github.com/ANTEVO-CH/plugins) | Claude plugins — each connection with its skills, 32 in all, one install. |
 | [**cli**](https://github.com/ANTEVO-CH/cli) | `@antevo/cli` — the same connections from a terminal, scriptable. |
 
 <br>
