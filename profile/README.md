@@ -54,7 +54,7 @@ npx @antevo/cli brief
 gemini extensions install https://github.com/ANTEVO-CH/antevo-mcp
 ```
 
-**ChatGPT** — Executive, Trademark and Wealth are in the ChatGPT app directory: [antevo.ch/mcp/chatgpt](https://antevo.ch/mcp/chatgpt/).
+**ChatGPT** — Executive, Tremor Watch, Trademark and Wealth are in the ChatGPT app directory: [antevo.ch/mcp/chatgpt](https://antevo.ch/mcp/chatgpt/).
 
 **Cursor and VS Code** — one click on [antevo.ch/mcp](https://antevo.ch/mcp/#connections), or from [INSTALL.md](https://github.com/ANTEVO-CH/antevo-mcp/blob/main/INSTALL.md).
 
