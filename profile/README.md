@@ -28,8 +28,9 @@
 | **IV.** | **Trademark** — screen a name across the registers, read who holds a mark, check the opposition window | `https://trademark.antevo.ch/mcp` | Public screening; sign-in for the rest |
 | **V.** | **Wealth** — your household: holdings, allocation, risk, real assets and, on Wealth+, succession readiness | `https://api.antevo.ch/mcp/wealth/mcp` | Your account |
 | **VI.** | **Mandates** — your firm's client book: reviews due, meeting preparation, succession | `https://api.antevo.ch/mcp/mandates/mcp` | By arrangement |
+| **VII.** | **Companies** — the public record on a Swiss company: the commercial register, the gazette's dated changes, the group structure and sanctions-list checks, every line with its source and date, and a watch for changes. Supports a KYC file; not a KYC check | `https://api.antevo.ch/mcp/companies/mcp` | Any Antevo account |
 
-All six are listed in the official [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=ch.antevo) under `ch.antevo`.
+Six of the seven are listed in the official [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=ch.antevo) under `ch.antevo`; Companies is not in the registry yet. Setting up Companies, step by step: [antevo.ch/mcp/companies](https://antevo.ch/mcp/companies/).
 
 ## Begin in one line
 
@@ -69,13 +70,14 @@ gemini extensions install https://github.com/ANTEVO-CH/antevo-mcp
 > **Tremor Watch** — *"Are markets under strain this week?"* <br>
 > **Trademark** — *"Has anyone filed anything close to my brand name?"* <br>
 > **Wealth** — *"Where am I concentrated?"* <br>
-> **Mandates** — *"Which clients are due a review this month?"*
+> **Mandates** — *"Which clients are due a review this month?"* <br>
+> **Companies** — *"What has changed at this Swiss company since January?"*
 
 ## A considered connection
 
 - **Public where it can be.** The 07:00 Brief, Executive, Tremor Watch and Trademark screening need no account and reach no personal data.
-- **Your permission where it matters.** Wealth, Mandates and Trademark's watchlist and investigations sign in over OAuth 2.1 with PKCE. Your assistant receives a scoped token, never your password, and your account's own permissions apply.
-- **Nothing trades, nothing moves money.** With a sign-in, Wealth can record holdings you already own, Trademark can keep your watchlist and run an investigation, and Mandates can update your own firm's records. Every Wealth change, and every irreversible Mandates change, returns a plan first and waits for confirmation.
+- **Your permission where it matters.** Wealth, Mandates, Companies and Trademark's watchlist and investigations sign in over OAuth 2.1 with PKCE. Your assistant receives a scoped token, never your password, and your account's own permissions apply.
+- **Nothing trades, nothing moves money.** With a sign-in, Wealth can record holdings you already own, Trademark can keep your watchlist and run an investigation, Companies can watch a company for you, and Mandates can update your own firm's records. Every Wealth change, and every irreversible Mandates change, returns a plan first and waits for confirmation.
 - **Intelligence, not advice.**
 
 ## Repositories
