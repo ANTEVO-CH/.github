@@ -25,10 +25,10 @@
 | **I.** | **The 07:00 Brief** — the morning read: what moved, what it means, what to watch today and the risks building underneath | `https://api.antevo.ch/mcp/0700/mcp` | Public |
 | **II.** | **Executive** — the daily editorial read on markets and the world, the risk radar, a dated archive and a century of macro-economic history | `https://api.antevo.ch/mcp/executive/mcp` | Public |
 | **III.** | **Tremor Watch** — every week, how many of 753 market relationships stopped behaving, against a normal Friday since 2001, and every reading since 1997 | `https://api.antevo.ch/mcp/tremor/mcp` | Public |
-| **IV.** | **Trademark** — screen a name across the registers, read who holds a mark, check the opposition window | `https://trademark.antevo.ch/mcp` | Public screening; sign-in for the rest |
+| **IV.** | **Trademark** — screen a name across 50+ registers, Swiss, EU, UK and US included, read who holds a mark, check the opposition window | `https://trademark.antevo.ch/mcp` | Public screening; sign-in for the rest |
 | **V.** | **Wealth** — your household: holdings, allocation, risk, real assets and, on Wealth+, succession readiness | `https://api.antevo.ch/mcp/wealth/mcp` | Your account |
 | **VI.** | **Mandates** — your firm's client book: reviews due, meeting preparation, succession | `https://api.antevo.ch/mcp/mandates/mcp` | By arrangement |
-| **VII.** | **Companies** — the public record on a Swiss company: the commercial register, the gazette's dated changes, the group structure and sanctions-list checks, every line with its source and date, and a watch for changes. Supports a KYC file; not a KYC check | `https://api.antevo.ch/mcp/companies/mcp` | Any Antevo account |
+| **VII.** | **Companies** — the public record on a Swiss company: the commercial register (Zefix), the gazette's dated changes (SHAB/FOSC), the group structure and sanctions-list checks, every line with its source and date, and a watch for changes. Supports a KYC file; not a KYC check | `https://api.antevo.ch/mcp/companies/mcp` | Any Antevo account |
 
 Six of the seven are listed in the official [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=ch.antevo) under `ch.antevo`; Companies is not in the registry yet. Setting up Companies, step by step: [antevo.ch/mcp/companies](https://antevo.ch/mcp/companies/).
 
