@@ -16,7 +16,7 @@
 
 **Antevo makes intelligence products for trademarks, private wealth and market risk.** It connects developments in the world to the things you own, manage and protect — with the record behind each connection. Bring it into the assistant you already use: Claude, ChatGPT, Cursor, VS Code, Gemini CLI, Kiro, or a terminal. [What is Antevo?](https://antevo.ch/about/)
 
-<p align="center"><b><a href="https://github.com/ANTEVO-CH/plugins">Start with ANTEVO-CH/plugins →</a></b><br><sub>Five connections and 32 skills for Claude, one install each</sub></p>
+<p align="center"><b><a href="https://github.com/ANTEVO-CH/plugins">Start with ANTEVO-CH/plugins →</a></b><br><sub>Six connections and 35 skills for Claude, one install each</sub></p>
 
 ## The connections
 
@@ -29,8 +29,9 @@
 | **V.** | **Wealth** — your household: holdings, allocation, risk, real assets and, on Wealth+, succession readiness | `https://api.antevo.ch/mcp/wealth/mcp` | Your account |
 | **VI.** | **Mandates** — your firm's client book: reviews due, meeting preparation, succession | `https://api.antevo.ch/mcp/mandates/mcp` | By arrangement |
 | **VII.** | **Companies** — the public record on a Swiss company: the commercial register (Zefix), the gazette's dated changes (SHAB/FOSC), the group structure and sanctions-list checks, every line with its source and date, and a watch for changes. Supports a KYC file; not a KYC check | `https://api.antevo.ch/mcp/companies/mcp` | Any Antevo account |
+| **VIII.** | **Strategy Radar** — every morning, the business board of risks and opportunities for companies, matched to your company's markets, inputs, routes and objectives in your own assistant; your answers never reach Antevo. Possible responses with reasons, never advice | `https://api.antevo.ch/mcp/strategy/mcp` | Public |
 
-Six of the seven are listed in the official [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=ch.antevo) under `ch.antevo`; Companies is not in the registry yet. Setting up Companies, step by step: [antevo.ch/mcp/companies](https://antevo.ch/mcp/companies/).
+Seven of the eight are listed in the official [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=ch.antevo) under `ch.antevo`; Companies is not in the registry yet. Setting up Companies, step by step: [antevo.ch/mcp/companies](https://antevo.ch/mcp/companies/).
 
 ## Begin in one line
 
@@ -59,7 +60,7 @@ gemini extensions install https://github.com/ANTEVO-CH/antevo-mcp
 
 **Cursor and VS Code** — one click on [antevo.ch/mcp](https://antevo.ch/mcp/#connections), or from [INSTALL.md](https://github.com/ANTEVO-CH/antevo-mcp/blob/main/INSTALL.md).
 
-**Kiro** — Powers → Add Custom Power → import from GitHub: [`powers/`](https://github.com/ANTEVO-CH/antevo-mcp/tree/main/powers) has The 07:00 Brief, Executive, Tremor Watch and Trademark.
+**Kiro** — Powers → Add Custom Power → import from GitHub: [`powers/`](https://github.com/ANTEVO-CH/antevo-mcp/tree/main/powers) has The 07:00 Brief, Executive, Tremor Watch, Strategy Radar and Trademark.
 
 **Anything else** — paste an address from the table into any client that speaks MCP over Streamable HTTP. There is nothing to download and nothing to run.
 
@@ -71,11 +72,12 @@ gemini extensions install https://github.com/ANTEVO-CH/antevo-mcp
 > **Trademark** — *"Has anyone filed anything close to my brand name?"* <br>
 > **Wealth** — *"Where am I concentrated?"* <br>
 > **Mandates** — *"Which clients are due a review this month?"* <br>
-> **Companies** — *"What has changed at this Swiss company since January?"*
+> **Companies** — *"What has changed at this Swiss company since January?"* <br>
+> **Strategy Radar** — *"What changed today for our strategy?"*
 
 ## A considered connection
 
-- **Public where it can be.** The 07:00 Brief, Executive, Tremor Watch and Trademark screening need no account and reach no personal data.
+- **Public where it can be.** The 07:00 Brief, Executive, Tremor Watch, Strategy Radar and Trademark screening need no account and reach no personal data. Strategy Radar takes no company details: the matching happens in your assistant.
 - **Your permission where it matters.** Wealth, Mandates, Companies and Trademark's watchlist and investigations sign in over OAuth 2.1 with PKCE. Your assistant receives a scoped token, never your password, and your account's own permissions apply.
 - **Nothing trades, nothing moves money.** With a sign-in, Wealth can record holdings you already own, Trademark can keep your watchlist and run an investigation, Companies can watch a company for you, and Mandates can update your own firm's records. Every Wealth change, and every irreversible Mandates change, returns a plan first and waits for confirmation.
 - **Intelligence, not advice.**
@@ -85,7 +87,7 @@ gemini extensions install https://github.com/ANTEVO-CH/antevo-mcp
 | | |
 |:--|:--|
 | [**antevo-mcp**](https://github.com/ANTEVO-CH/antevo-mcp) | Connection metadata — registry manifests, Cursor plugins, Kiro powers, the Gemini CLI extension and install links. MIT. |
-| [**plugins**](https://github.com/ANTEVO-CH/plugins) | Claude plugins — each connection with its skills, 32 in all, one install. |
+| [**plugins**](https://github.com/ANTEVO-CH/plugins) | Claude plugins — each connection with its skills, 35 in all, one install. |
 | [**cli**](https://github.com/ANTEVO-CH/cli) | `@antevo/cli` — the same connections from a terminal, scriptable. |
 
 <br>
