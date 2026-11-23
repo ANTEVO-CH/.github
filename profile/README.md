@@ -30,8 +30,9 @@
 | **VI.** | **Mandates** — your firm's client book: reviews due, meeting preparation, succession | `https://api.antevo.ch/mcp/mandates/mcp` | By arrangement |
 | **VII.** | **Companies** — the public record on a Swiss company: the commercial register (Zefix), the gazette's dated changes (SHAB/FOSC), the group structure and sanctions-list checks, every line with its source and date, and a watch for changes. Supports a KYC file; not a KYC check | `https://api.antevo.ch/mcp/companies/mcp` | Any Antevo account |
 | **VIII.** | **Strategy Radar** — every morning, the business board of risks and opportunities for companies, matched to your company's markets, inputs, routes and objectives in your own assistant; your answers never reach Antevo. Possible responses with reasons, never advice | `https://api.antevo.ch/mcp/strategy/mcp` | Public |
+| **IX.** | **Research** — put a question to one of eighteen Antevo research desks (economy, geopolitics, shipping, rates, equities, company results, the Swiss market and more) and get the desk's written answer, every fact dated, with how much it read and how recent its reading is. Editorial research, never buy or sell advice | `https://api.antevo.ch/mcp/research/mcp` | Any Antevo account |
 
-Seven of the eight are listed in the official [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=ch.antevo) under `ch.antevo`; Companies is not in the registry yet. Setting up Companies, step by step: [antevo.ch/mcp/companies](https://antevo.ch/mcp/companies/).
+All nine are listed in the official [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=ch.antevo) under `ch.antevo`. Setting up Companies, step by step: [antevo.ch/mcp/companies](https://antevo.ch/mcp/companies/).
 
 ## Begin in one line
 
@@ -73,12 +74,13 @@ gemini extensions install https://github.com/ANTEVO-CH/antevo-mcp
 > **Wealth** — *"Where am I concentrated?"* <br>
 > **Mandates** — *"Which clients are due a review this month?"* <br>
 > **Companies** — *"What has changed at this Swiss company since January?"* <br>
-> **Strategy Radar** — *"What changed today for our strategy?"*
+> **Strategy Radar** — *"What changed today for our strategy?"* <br>
+> **Research** — *"What does the rates desk make of the next SNB decision?"*
 
 ## A considered connection
 
 - **Public where it can be.** The 07:00 Brief, Executive, Tremor Watch, Strategy Radar and Trademark screening need no account and reach no personal data. Strategy Radar takes no company details: the matching happens in your assistant.
-- **Your permission where it matters.** Wealth, Mandates, Companies and Trademark's watchlist and investigations sign in over OAuth 2.1 with PKCE. Your assistant receives a scoped token, never your password, and your account's own permissions apply.
+- **Your permission where it matters.** Wealth, Mandates, Companies, Research and Trademark's watchlist and investigations sign in over OAuth 2.1 with PKCE. Your assistant receives a scoped token, never your password, and your account's own permissions apply.
 - **Nothing trades, nothing moves money.** With a sign-in, Wealth can record holdings you already own, Trademark can keep your watchlist and run an investigation, Companies can watch a company for you, and Mandates can update your own firm's records. Every Wealth change, and every irreversible Mandates change, returns a plan first and waits for confirmation.
 - **Intelligence, not advice.**
 
