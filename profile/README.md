@@ -57,7 +57,7 @@ All nine are listed in the official [MCP Registry](https://registry.modelcontext
 </picture>
 </a>
 
-Each build is a recipe, an example from a real run and a Claude skill in `antevo-build`. [Startup launch](https://antevo.ch/mcp/build/) · [Due diligence](https://antevo.ch/mcp/build/due-diligence/) · [Supply chain](https://antevo.ch/mcp/build/supply-chain/) · [M&A intelligence](https://antevo.ch/mcp/build/m-and-a/)
+Each build is a recipe, an example from a real run and a Claude skill in `antevo-build`. [Startup launch](https://antevo.ch/mcp/build/startup-launch/) · [Due diligence](https://antevo.ch/mcp/build/due-diligence/) · [Supply chain](https://antevo.ch/mcp/build/supply-chain/) · [M&A intelligence](https://antevo.ch/mcp/build/m-and-a/)
 
 ```text
 /plugin marketplace add ANTEVO-CH/plugins
