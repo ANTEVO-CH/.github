@@ -20,7 +20,7 @@
 
 **Antevo makes intelligence products for trademarks, company records, private wealth and market risk.** It connects developments in the world to the things you own, manage and protect, with the record behind each connection. Bring it into the assistant you already use: Claude, ChatGPT, Cursor, VS Code, Gemini CLI, Kiro, or a terminal. [What is Antevo?](https://antevo.ch/about/)
 
-<p align="center"><b><a href="https://github.com/ANTEVO-CH/plugins">Start with ANTEVO-CH/plugins →</a></b><br><sub>Eight plugins and 44 skills for Claude, one install each</sub></p>
+<p align="center"><b><a href="https://github.com/ANTEVO-CH/plugins">Start with ANTEVO-CH/plugins →</a></b><br><sub>Eight plugins and 45 skills for Claude, one install each</sub></p>
 
 ## The engines
 
@@ -53,11 +53,11 @@ All nine are listed in the official [MCP Registry](https://registry.modelcontext
 <a href="https://antevo.ch/mcp/build/">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ANTEVO-CH/.github/main/profile/assets/builds-dark.png">
-  <img alt="Six builds, one prompt each: Startup launch, Due diligence, Supply chain, M&A intelligence, Real estate and Family office, each with its real run of 25 November 2026." src="https://raw.githubusercontent.com/ANTEVO-CH/.github/main/profile/assets/builds-light.png" width="100%">
+  <img alt="Seven builds, one prompt each: Startup launch, Due diligence, Supply chain, M&A intelligence, Real estate, Family office and Market entry, each with its real run of 25 November 2026." src="https://raw.githubusercontent.com/ANTEVO-CH/.github/main/profile/assets/builds-light.png" width="100%">
 </picture>
 </a>
 
-Each build is a recipe, an example from a real run and a Claude skill in `antevo-build`. [Startup launch](https://antevo.ch/mcp/build/startup-launch/) · [Due diligence](https://antevo.ch/mcp/build/due-diligence/) · [Supply chain](https://antevo.ch/mcp/build/supply-chain/) · [M&A intelligence](https://antevo.ch/mcp/build/m-and-a/) · [Real estate](https://antevo.ch/mcp/build/real-estate/) · [Family office](https://antevo.ch/mcp/build/family-office/)
+Each build is a recipe, an example from a real run and a Claude skill in `antevo-build`. [Startup launch](https://antevo.ch/mcp/build/startup-launch/) · [Due diligence](https://antevo.ch/mcp/build/due-diligence/) · [Supply chain](https://antevo.ch/mcp/build/supply-chain/) · [M&A intelligence](https://antevo.ch/mcp/build/m-and-a/) · [Real estate](https://antevo.ch/mcp/build/real-estate/) · [Family office](https://antevo.ch/mcp/build/family-office/) · [Market entry](https://antevo.ch/mcp/build/market-entry/)
 
 ```text
 /plugin marketplace add ANTEVO-CH/plugins
@@ -119,7 +119,7 @@ gemini extensions install https://github.com/ANTEVO-CH/antevo-mcp
 | | |
 |:--|:--|
 | [**antevo-mcp**](https://github.com/ANTEVO-CH/antevo-mcp) | Connection metadata — registry manifests, Cursor plugins, Kiro powers, the Gemini CLI extension and install links. MIT. |
-| [**plugins**](https://github.com/ANTEVO-CH/plugins) | Claude plugins: each connection with its skills, 44 in all, and six builds on top, one install each. |
+| [**plugins**](https://github.com/ANTEVO-CH/plugins) | Claude plugins: each connection with its skills, 45 in all, and seven builds on top, one install each. |
 | [**cli**](https://github.com/ANTEVO-CH/cli) | `@antevo/cli` — the same connections from a terminal, scriptable. |
 
 <br>
