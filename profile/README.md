@@ -1,12 +1,16 @@
-<p align="center">
-  <a href="https://github.com/ANTEVO-CH/plugins"><img alt="Antevo: a question field cycling through questions your assistant can now answer, beside a lens where signals from the world travel inward to you" src="https://raw.githubusercontent.com/ANTEVO-CH/plugins/main/assets/cover.svg" width="100%"></a>
-</p>
+<a href="https://github.com/ANTEVO-CH/plugins">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ANTEVO-CH/.github/main/profile/assets/cover-org-dark.png">
+  <img alt="Antevo. We build the intelligence. You build what is next. Nine Antevo engines over MCP, five with no account. You ask: what changed today for our strategy? Antevo answers: AI-linked funding strain could make funding dearer for data-centre owners and cloud providers." src="https://raw.githubusercontent.com/ANTEVO-CH/.github/main/profile/assets/cover-org-light.png" width="100%">
+</picture>
+</a>
 
-<h3 align="center">Antevo watches the world. You focus on what matters.</h3>
+<h3 align="center">We build the intelligence. You build what's next.</h3>
 
 <p align="center">
   <a href="https://antevo.ch">antevo.ch</a> &nbsp;·&nbsp;
   <a href="https://antevo.ch/mcp">Connect</a> &nbsp;·&nbsp;
+  <a href="https://antevo.ch/mcp/build/">Build</a> &nbsp;·&nbsp;
   <a href="https://registry.modelcontextprotocol.io/v0/servers?search=ch.antevo">MCP Registry</a> &nbsp;·&nbsp;
   <a href="https://www.npmjs.com/package/@antevo/cli">npm</a> &nbsp;·&nbsp;
   <a href="mailto:contact@antevo.ch">contact@antevo.ch</a>
@@ -14,11 +18,19 @@
 
 <br>
 
-**Antevo makes intelligence products for trademarks, private wealth and market risk.** It connects developments in the world to the things you own, manage and protect — with the record behind each connection. Bring it into the assistant you already use: Claude, ChatGPT, Cursor, VS Code, Gemini CLI, Kiro, or a terminal. [What is Antevo?](https://antevo.ch/about/)
+**Antevo makes intelligence products for trademarks, company records, private wealth and market risk.** It connects developments in the world to the things you own, manage and protect, with the record behind each connection. Bring it into the assistant you already use: Claude, ChatGPT, Cursor, VS Code, Gemini CLI, Kiro, or a terminal. [What is Antevo?](https://antevo.ch/about/)
 
-<p align="center"><b><a href="https://github.com/ANTEVO-CH/plugins">Start with ANTEVO-CH/plugins →</a></b><br><sub>Six connections and 35 skills for Claude, one install each</sub></p>
+<p align="center"><b><a href="https://github.com/ANTEVO-CH/plugins">Start with ANTEVO-CH/plugins →</a></b><br><sub>Eight plugins and 42 skills for Claude, one install each</sub></p>
 
-## The connections
+## The engines
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ANTEVO-CH/.github/main/profile/assets/engines-dark.png">
+  <img alt="Nine Antevo engines, five without an account: The 07:00 Brief, Executive Brief, Tremor Watch, Strategy Radar and Trademark screening are free; Companies and Research need any Antevo account; Wealth needs your account; Mandates is by arrangement. Each is a remote MCP server with its address." src="https://raw.githubusercontent.com/ANTEVO-CH/.github/main/profile/assets/engines-light.png" width="100%">
+</picture>
+
+<details>
+<summary><b>The nine addresses, in full</b></summary>
 
 | | Connection | Address | Access |
 |:--|:--|:--|:--|
@@ -32,7 +44,25 @@
 | **VIII.** | **Strategy Radar** — every morning, the business board of risks and opportunities for companies, matched to your company's markets, inputs, routes and objectives in your own assistant; your answers never reach Antevo. Possible responses with reasons, never advice | `https://api.antevo.ch/mcp/strategy/mcp` | Public |
 | **IX.** | **Research** — put a question to one of eighteen Antevo research desks (economy, geopolitics, shipping, rates, equities, company results, the Swiss market and more) and get the desk's written answer, every fact dated, with how much it read and how recent its reading is. Editorial research, never buy or sell advice | `https://api.antevo.ch/mcp/research/mcp` | Any Antevo account |
 
+</details>
+
 All nine are listed in the official [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=ch.antevo) under `ch.antevo`. Setting up Companies, step by step: [antevo.ch/mcp/companies](https://antevo.ch/mcp/companies/).
+
+## Build on it
+
+<a href="https://antevo.ch/mcp/build/">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ANTEVO-CH/.github/main/profile/assets/builds-dark.png">
+  <img alt="Four builds, one prompt each: Startup launch, Due diligence, Supply chain and M&A intelligence, each with its real run of 25 November 2026." src="https://raw.githubusercontent.com/ANTEVO-CH/.github/main/profile/assets/builds-light.png" width="100%">
+</picture>
+</a>
+
+Each build is a recipe, an example from a real run and a Claude skill in `antevo-build`. [Startup launch](https://antevo.ch/mcp/build/) · [Due diligence](https://antevo.ch/mcp/build/due-diligence/) · [Supply chain](https://antevo.ch/mcp/build/supply-chain/) · [M&A intelligence](https://antevo.ch/mcp/build/m-and-a/)
+
+```text
+/plugin marketplace add ANTEVO-CH/plugins
+/plugin install antevo-build@antevo
+```
 
 ## Begin in one line
 
@@ -89,7 +119,7 @@ gemini extensions install https://github.com/ANTEVO-CH/antevo-mcp
 | | |
 |:--|:--|
 | [**antevo-mcp**](https://github.com/ANTEVO-CH/antevo-mcp) | Connection metadata — registry manifests, Cursor plugins, Kiro powers, the Gemini CLI extension and install links. MIT. |
-| [**plugins**](https://github.com/ANTEVO-CH/plugins) | Claude plugins — each connection with its skills, 35 in all, one install. |
+| [**plugins**](https://github.com/ANTEVO-CH/plugins) | Claude plugins: each connection with its skills, 42 in all, and four builds on top, one install each. |
 | [**cli**](https://github.com/ANTEVO-CH/cli) | `@antevo/cli` — the same connections from a terminal, scriptable. |
 
 <br>
